@@ -1,0 +1,6 @@
+name: arcpyhook-env
+dependencies:
+- python=2.7
+- numpy=1.9
+- matplotlib=1.5
+- pywin32

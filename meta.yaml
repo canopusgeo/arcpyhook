@@ -1,0 +1,23 @@
+package:
+  name: arcpyhook
+  version: "0.1.0"
+
+source:
+  git_rev: v0.1.0
+  git_url: https://github.com/canopusgeo/arcpyhook.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - arcpyhook
+
+about:
+  home: https://github.com/canopusgeo/arcpyhook
+  license: GNUv2
+  license_file: LICENSE
